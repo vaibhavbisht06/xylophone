@@ -2,8 +2,8 @@
 //  ViewController.swift
 //  Xylophone
 //
-//  Created by Angela Yu on 27/01/2016.
-//  Copyright © 2016 London App Brewery. All rights reserved.
+//  Created by Vaibhav Bisht on 06/08/2019.
+//  Copyright © 2019 Coding Blocks. All rights reserved.
 //
 
 import UIKit
@@ -19,7 +19,7 @@ class ViewController: UIViewController{
 
     @IBAction func notePressed(_ sender: UIButton) {
         
-        
+        print(sender.tag)
         
     }
     
